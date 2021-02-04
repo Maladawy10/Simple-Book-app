@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.task1.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/love"
+        android:name="com.example.task1.Love"
+        android:label="fragment_love"
+        tools:layout="@layout/fragment_love" />
+    <fragment
+        android:id="@+id/life"
+        android:name="com.example.task1.Life"
+        android:label="fragment_life"
+        tools:layout="@layout/fragment_life" />
+    <fragment
+        android:id="@+id/time2"
+        android:name="com.example.task1.Time"
+        android:label="fragment_time"
+        tools:layout="@layout/fragment_time" />
+</navigation>
